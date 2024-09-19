@@ -1,0 +1,111 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-image: url(./mountains-abstract-background-earth-tone-watercolor-vector_53876-176544.avif);
+    background-size: cover;
+}
+.header__block{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    background-color: #00000091;
+}
+.header__block__logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Raleway;
+    font-size: 30px;
+    color: #fff;
+    height: 100%;
+}
+.header__block__list{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+.header__block__list__links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+}
+.header__block__list a{
+    font-family: Montserrat;
+    font-weight: 400;
+    transition: 300ms;
+}
+.header__block__list a:hover{
+    color: rgb(199 178 152);
+}
+.header__block__icons{
+    position: absolute;
+    left: 86%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    height: 100%;
+    width: 10%;
+}
+.header__main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    background-color: #00000091;
+    color: #fff;
+    height: calc( 100vh - 100px);
+    width: 100%;
+}
+.header__main__subtitle {
+    font-family: Raleway;
+    font-size: 34px;
+    text-align: center;
+}
+.header__main__title {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+}
+.header__main__text {
+    font-family: Montserrat;
+    font-size: 17px;
+    text-align: center;
+    width: 34%;
+}
+.header__main__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: rgb(153 134 117);
+    box-shadow: 0 3px 0px rgb(117 101 88);
+    border-radius: 4px;
+    width: 180px;
+    height: 50px;
+    margin-top: 50px;
+    transition: 300ms;
+}
+.header__main__btn a{
+    transition: 300ms;
+}
+.header__main__btn:hover{
+    background-color: transparent;
+}
+.header__main__btn:hover a{
+    color: rgb(199 178 152);
+}

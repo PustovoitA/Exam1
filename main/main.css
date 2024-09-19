@@ -1,0 +1,106 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 0 1;
+}
+.vacancies{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+}
+.vacancies__block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 225px;
+    width: 60%;
+}
+.vacansies__block__column{
+    height: 100%;
+    width: 25%;
+}
+.vacansies__block__column a{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+}
+.vacansies__block__column__h2{
+    font-family: Raleway;
+    text-align: center;
+    color: rgb(85 85 85);
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 15px;
+}
+.vacansies__block__column p{
+    padding: 0 5px;
+    text-align: center;
+    color: rgb(139 139 139);
+    font-family: Montserrat;
+
+}
+.vacansies__block__column hr{
+    width: 25%;
+    height: 3px;
+    border: 0;
+    outline: 0;
+    background-color: rgb(241 238 233);
+}
+.vacansies__block__column:hover div{
+    color: rgb(199 177 153);
+}
+.vacansies__block__column:hover hr{
+    background-color: rgb(199 177 153);
+}
+.vacansies__block__column:hover svg{
+    fill: rgb(198 178 153);
+}
+.Multipurpose{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(to left,  rgb(65 45 36) 0%,rgb(49 36 30) 50%,rgb(33 28 25) 100%);
+}
+.Multipurpose_block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 60%;
+}
+.Multipurpose_block__info__title{
+    font-family: Raleway;
+    color: #fff;
+    font-size: 30px;
+}
+.Multipurpose_block__info__title a{
+    color: rgb(198 176 152);
+}
+.Multipurpose_block__info__text{
+    font-family: Montserrat;
+    font-size: 18.5px;
+    font-weight: 500;
+    color: rgb(98 88 86);
+}
+.Multipurpose_block__btn{
+    padding: 15px 20px;
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: rgb(153 134 117);
+    box-shadow: 0 3px 0px rgb(116 100 87);
+    font-family: Raleway;
+    font-weight: 600;
+    transition: 300ms;
+}
+.Multipurpose_block__btn:hover{
+    background-color: transparent;
+}
