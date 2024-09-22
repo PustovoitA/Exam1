@@ -91,16 +91,3 @@ main{
     font-weight: 500;
     color: rgb(98 88 86);
 }
-.Multipurpose_block__btn{
-    padding: 15px 20px;
-    font-size: 15px;
-    border-radius: 4px;
-    background-color: rgb(153 134 117);
-    box-shadow: 0 3px 0px rgb(116 100 87);
-    font-family: Raleway;
-    font-weight: 600;
-    transition: 300ms;
-}
-.Multipurpose_block__btn:hover{
-    background-color: transparent;
-}
