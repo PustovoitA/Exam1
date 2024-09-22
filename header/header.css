@@ -5,8 +5,9 @@
     align-items: center;
     height: 100%;
     width: 100%;
-    background-image: url(./mountains-abstract-background-earth-tone-watercolor-vector_53876-176544.avif);
+    /* background-image: url(./mountains-abstract-background-earth-tone-watercolor-vector_53876-176544.avif);
     background-size: cover;
+    background-repeat: no-repeat; */
 }
 .header__block{
     display: flex;

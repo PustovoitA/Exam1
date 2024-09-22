@@ -11,3 +11,29 @@
 ::-webkit-scrollbar-thumb:hover{
     background-color: rgb(226, 209, 193);
 }
+::-moz-scrollbar{
+    width: 15px;
+}
+::-moz-scrollbar-track{
+    background-color: rgb(92 64 40);
+}
+::-moz-scrollbar-thumb{
+    background-color: rgb(153 134 117);
+    border-radius: 10px;
+}
+::-moz-scrollbar-thumb:hover{
+    background-color: rgb(226, 209, 193);
+}
+::-o-scrollbar{
+    width: 15px;
+}
+::-o-scrollbar-track{
+    background-color: rgb(92 64 40);
+}
+::-o-scrollbar-thumb{
+    background-color: rgb(153 134 117);
+    border-radius: 10px;
+}
+::-o-scrollbar-thumb:hover{
+    background-color: rgb(226, 209, 193);
+}
