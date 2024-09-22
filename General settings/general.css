@@ -7,6 +7,9 @@ body{
     display: flex;
     flex-direction: column;
     cursor: url(./cursor\ auto.png), auto;
+    --color-btn: rgb(198 176 152);
+    --color-opasity-black: #00000091;
+    --color-gradient: linear-gradient(to left,  rgb(65 45 36) 0%,rgb(49 36 30) 50%,rgb(33 28 25) 100%);
 }
 a{
     text-decoration: none;

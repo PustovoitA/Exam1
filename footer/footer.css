@@ -17,7 +17,7 @@ footer{
     align-items: center;
     height: 100%;
     width: 100%;
-    background-color: #00000091;
+    background-color: var(--color-opasity-black);
 }
 .footer__logo__wrap__images{
     display: flex;
@@ -59,7 +59,7 @@ footer{
 }
 .footer__bar__item b{
     font-weight: 500;
-    color: rgb(196 178 154);
+    color: var(--color-btn);
 }
 .slesh{
     margin: 0 10px;

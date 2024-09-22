@@ -14,7 +14,7 @@
     justify-content: space-around;
     width: 100%;
     height: 100px;
-    background-color: #00000091;
+    background-color: var(--color-opasity-black);
 }
 .header__block__logo{
     display: flex;
@@ -45,7 +45,7 @@
     transition: 300ms;
 }
 .header__block__list a:hover{
-    color: rgb(199 178 152);
+    color: var(--color-btn);
 }
 .header__block__icons{
     position: absolute;
@@ -63,7 +63,7 @@
     justify-content: center;
     align-items: center;
     gap: 7px;
-    background-color: #00000091;
+    background-color: var(--color-opasity-black);
     color: #fff;
     height: calc( 100vh - 100px);
     width: 100%;
