@@ -54,9 +54,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
     height: 100%;
     width: 10%;
+}
+.header__block__icons svg:hover{
+    fill: var(--color-btn);
 }
 .header__main{
     display: flex;
