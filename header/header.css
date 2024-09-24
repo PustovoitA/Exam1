@@ -91,6 +91,24 @@
     width: 34%;
     margin-bottom: 50px;
 }
+.header__main__side-arrows{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    width: 85%;
+    height: 100px;
+}
+.left-arrow, .right-arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 5%;
+}
+.header__main__side-arrows, svg:hover{
+    fill: rgb(160 160 158);
+}
 .header__main__circles{
     position: absolute;
     top: 91%;
