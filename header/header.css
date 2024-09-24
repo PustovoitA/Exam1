@@ -67,6 +67,7 @@
     justify-content: center;
     align-items: center;
     gap: 7px;
+    position: relative;
     background-color: var(--color-opasity-black);
     color: #fff;
     height: calc( 100vh - 100px);
@@ -89,6 +90,26 @@
     text-align: center;
     width: 34%;
     margin-bottom: 50px;
+}
+.header__main__circles{
+    position: absolute;
+    top: 91%;
+    height: 30px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header__main__circles__item{
+    background-color: rgb(138 139 143);
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    transition: 300ms;
+}
+.header__main__circles__item:hover{
+    border: 2px solid rgb(211 194 174);
+    background-color: transparent;
 }
 .arrows{
     display: flex;
