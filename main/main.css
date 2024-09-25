@@ -85,3 +85,37 @@
     font-weight: 500;
     color: rgb(98 88 86);
 }
+.Statistics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    background: var(--color-gradient); 
+}
+.Statistics__block{
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    width: 55%;
+    height: 190px;
+}
+.Statistics__block__column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 20%;
+}
+.Statistics__block__column__number{
+    color: #fff;
+    font-size: 50px;
+    font-family: Montserrat;
+    font-weight: 200;
+}
+.Statistics__block__column__text {
+    color: rgb(200 178 154);
+    font-family: Montserrat;
+    font-weight: 450;
+}
