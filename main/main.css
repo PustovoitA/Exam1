@@ -85,6 +85,54 @@
     font-weight: 500;
     color: rgb(98 88 86);
 }
+.Mobile{
+    display: flex;
+    height: 500px;
+    width: 100%;
+}
+.Mobile__image{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 100%;
+    width: 45%;
+}
+.Mobile__info{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+    width: 55%;
+}
+.Mobile__info__title{
+    font-size: 20px;
+    color: rgb(85 85 85);
+    font-weight: 700;
+    font-family: Montserrat;
+}
+.Mobile__info__text{
+    color: rgb(148 148 147);
+    width: 550px;
+    font-size: 13px;
+    line-height: 23px;
+    font-weight: 500;
+    font-family: Montserrat;
+}
+.Mobile__info__list{
+    color: rgb(148 148 147);
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 23px;
+    margin-left: 10px;
+}
+.Mobile__info__list li{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
 .Statistics{
     display: flex;
     justify-content: center;
