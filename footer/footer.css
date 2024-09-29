@@ -5,9 +5,9 @@ footer{
     width: 100%;
 }
 .footer__logo {
-    /* background-image: url(./holmy_trava_rassvet_1027273_1600x900.jpg);
+    background-image: url(./footer.webp);
     background-size: cover;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     height: 600px;
 }
 .footer__logo__wrap{
