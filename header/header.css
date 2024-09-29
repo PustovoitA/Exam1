@@ -5,9 +5,6 @@
     align-items: center;
     height: 100%;
     width: 100%;
-    /* background-image: url(./mountains-abstract-background-earth-tone-watercolor-vector_53876-176544.avif);
-    background-size: cover;
-    background-repeat: no-repeat; */
 }
 .slider {
     position: relative;
@@ -18,7 +15,7 @@
 
 .slides {
     display: flex;
-    width: 400%;
+    width: 100%;
     height: 100%;
     animation: slide 16s infinite;
 }
@@ -28,12 +25,8 @@
     height: 100vh;
     flex-shrink: 0;
     position: relative;
-}
-
-.slide img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    background-image: url(./header.webp);
+    background-repeat: no-repeat;
 }
 @keyframes slide {
     0% {
