@@ -1,6 +1,6 @@
 # Waxom
 
-![Waxom Logo]()
+![Waxom Logo](./images/header/logo.avif)
 
 ## Описание проекта
 
