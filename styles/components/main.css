@@ -94,6 +94,7 @@
     justify-content: center;
     width: 100%;
     height: 950px;
+    padding: 100px 0;
 }
 .Projects__block {
     display: flex;

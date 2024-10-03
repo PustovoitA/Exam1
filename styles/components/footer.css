@@ -5,7 +5,8 @@ footer{
     width: 100%;
 }
 .footer__logo {
-
+    background-image: url(../../images/header/header.webp);
+    background-size: cover;
     height: 600px;
 }
 .footer__logo__wrap{
@@ -29,7 +30,6 @@ footer{
     align-items: center;
     height: 100%;
     width: calc(25% - 22.5px);
-    border: #fff solid 1px;
 }
 .footer__bar {
     display: flex;
