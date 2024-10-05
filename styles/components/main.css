@@ -246,6 +246,77 @@
 }
 
 
+.Video{
+    width: 100%;
+    height: 500px;
+}
+.Video__item{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.Video__black{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+}
+.Video__black__block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    position: absolute;
+    z-index: 4;
+    width: 30%;
+    height: 40%;
+}
+.Video__black__block__player svg{
+    display: none;
+    height: 60px;
+    width: 60px;
+}
+.Video__black__block__title{
+    font-family: Raleway;
+    font-weight: 500;
+    color: transparent;
+    font-size: 27px;
+    transition: 300ms;
+}
+.Video__black__block__text{
+    font-family: Montserrat;
+    text-align: center;
+    color: transparent;
+    font-size: 14px;
+    line-height: 22px;
+    transition: 300ms;
+}
+.Video__black__block__time-btn{
+    font-family: Montserrat;
+    font-size: 10px;
+    color: transparent;
+    transition: 300ms;
+}
+.Video__black:hover{
+    background-color: var(--color-opasity-black);
+}
+.Video__black:hover .Video__black__block__player svg{
+    display: block;
+}
+.Video__black:hover .Video__black__block__text, .Video__black__block__title{
+    color: #fff;
+}
+.Video__black:hover .Video__black__block__time-btn{
+    color: var(--color-btn);
+}
+
+
+
 .Mobile{
     display: flex;
     height: 500px;
