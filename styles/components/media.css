@@ -1,0 +1,107 @@
+@media (max-width:1440px){
+.header__block__menu{
+    display: flex;
+}
+.header__block__list__links{
+    display: none;
+}
+.header__block__logo span{
+    display: none;
+}
+.Projects__block{
+    width: 95%;
+}
+.Projects__block__info__menu__item {
+    gap: 10px;
+}
+.vacancies__block{
+    width: 85%;
+}
+.Statistics__block{
+    width: 75%;
+}
+.Posts__block{
+    width: 80%;
+}
+}
+
+
+@media (max-width:1280px){
+.header__main__text{
+    width: 50%;
+}
+.Multipurpose_block{
+    width: 75%;
+}
+.Projects__block{
+    width: 100%;
+}
+.Projects__block__info{
+    width: 80%;
+}
+.Mobile__info__text{
+    width: 70%;
+}
+.Mobile__image{
+    justify-content: center;
+}
+.Video__black__block{
+    width: 50%;
+    height: 50%;
+}
+.footer__bar__item{
+    width: 95%;
+}
+}
+
+
+@media (max-width:1050px){
+.header__main__text{
+    width: 70%;
+}
+.vacancies__block{
+    width: 100%;
+}
+.Multipurpose_block{
+    width: 90%;
+}
+.header__main__side-arrows{
+    width: 100%;
+}
+.arrows{
+    left: 87%;
+}
+.Projects__block__info__menu{
+    margin: 0;
+}
+.Projects__block__wrap{
+    width: 95%;
+}
+.Statistics__block{
+    width: 95%;
+}
+.Posts__info{
+    width: 70%;
+}
+.Posts__block{
+    width: 95%;
+}
+.footer__logo__wrap__images{
+    width: 100%;
+}
+}
+
+@media (max-width:920px){
+.footer__logo__wrap__images{
+    flex-direction: column;
+    }
+.footer__bar__item{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.footer__bar__item p{
+    padding: 0;
+}
+}

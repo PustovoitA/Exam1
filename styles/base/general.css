@@ -20,6 +20,9 @@ a{
 a:hover{
     cursor: url(../../images/cursors/cursor\ pointer.png), pointer;
 }
+input{
+    display: none;
+}
 .all__btn{
     display: flex;
     justify-content: center;

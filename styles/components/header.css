@@ -1,7 +1,6 @@
 header{
     position: relative;
 }
-
 .loading-screen{
     height: 100vh;
     align-items: center;
@@ -102,6 +101,36 @@ header{
     color: #fff;
     height: 100%;
 }
+
+.header__block__menu{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    position: absolute;
+    z-index: 8;
+    top: 33px;
+}
+.header__block__menu__list{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+.header__block__menu__list a{
+    font-family: Montserrat;
+    font-weight: 400;
+    transition: 300ms;
+}
+.header__block__menu__list a:hover{
+    color: var(--color-btn);
+}
+#burger:checked ~ .header__block__menu__list{
+    display: flex;
+}
+
 .header__block__list{
     position: relative;
     display: flex;
@@ -212,6 +241,7 @@ header{
     align-items: center;
     transform: rotateX(10deg);
     position: fixed;
+    z-index: 10;
     left: 92.5%;
     top: 75%;
 }
