@@ -1,8 +1,46 @@
+header{
+    position: relative;
+}
+
+.loading-screen{
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: var(--color-btn);
+    animation: 3s loading-screen linear forwards;
+}
+.loading-screen__text{
+    color: #fff;
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 45px
+}
+
+@keyframes loading{
+0%{
+    overflow: hidden;
+}
+100%{
+    overflow: auto;
+}
+}
+
+@keyframes loading-screen{
+0%{
+    display: flex;
+}
+100%{
+    display: none;
+}
+}
+
 .header{
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
+    position: relative;
     height: 100%;
     width: 100%;
 }
