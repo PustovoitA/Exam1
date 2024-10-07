@@ -27,6 +27,7 @@ input{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     transition: 300ms;
     border-radius: 4px;
     background-color: rgb(153 134 117);
