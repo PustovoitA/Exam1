@@ -5,9 +5,10 @@ body{
     scroll-behavior: smooth;
 }
 body{
-    animation: 3s loading linear forwards;
+    animation: 6s loading linear forwards;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
     cursor: url(../../images/cursors/cursor\ auto.png), auto;
     --color-btn: rgb(198 176 152);
     --color-opasity-black: #00000091;

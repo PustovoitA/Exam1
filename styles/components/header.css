@@ -17,9 +17,7 @@ header{
 }
 
 @keyframes loading{
-0%{
-    overflow: hidden;
-}
+0%{}
 100%{
     overflow: auto;
 }
