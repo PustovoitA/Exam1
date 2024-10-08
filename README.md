@@ -1,10 +1,10 @@
 # Waxom
 
-![Waxom Logo](./images/header/wa-1.webp)
+![Waxom Logo](./images/header/wa-1.webpfit)
 
 ## Описание проекта
 
-**Waxom** — это работа одного из студентов IT Step (Шаг). Проект написан на чистом HTML\CSS\SVG.(Проект еще в разработке)
+**Waxom** — это работа одного из студентов IT Step (Шаг). Проект написан на чистом HTML\CSS\SVG.
 
 ## Особенности
 
