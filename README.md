@@ -1,6 +1,6 @@
 # Waxom
 
-![Waxom Logo](./images/header/wa-1.webpfit)
+![Waxom Logo](./images/header/wa-1.webp)
 
 ## Описание проекта
 
