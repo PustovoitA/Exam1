@@ -285,4 +285,101 @@
 .Multipurpose_block__info__text{
     font-size: 12.5;
 }
+.Projects__block__info{
+    width: 100%;
+}
+.Projects__block__info__text{
+    width: 100%;
+}
+.Projects__block__info__menu{
+}
+.Projects__block__info__menu__item{
+    gap: 3px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Projects__block__wrap{
+    width: 100%;
+}
+.Projects__block__wrap__line{
+    width: 100%;
+    justify-content: center;
+    gap: 5px;
+}
+.Projects__block__wrap__line__column{
+    width: calc(33.333% - 2.5px);
+}
+.Projects__block__wrap__line__column__image{
+    background-position-x: -50px;
+}
+.Projects__block__wrap__line__column__info{
+    padding: 0;
+}
+.Projects__block__wrap__line__column__info__title{
+    font-size: 13px;
+}
+.Projects__block__wrap__line__column__info__cube{
+    left: 5px;
+}
+.Video__black__block{
+    width: 100%;
+}
+.Mobile{
+    height: 400px;
+}
+.Mobile__image{
+    display: none;
+}
+.Mobile__info{
+    width: 100%;
+}
+.Statistics__block__column__number{
+    font-size: 20px;
+}
+.Statistics__block__column__text{
+    font-style: 11px;
+}
+.Statistics__block{
+    width: 100%;
+    gap: 2%;
+}
+.Posts{
+    gap: 15px;
+    height: 500px;
+}
+.Posts__block__wrap__column__img{
+    background-position-x: -45px;
+}
+.Posts__info{
+    width: 100%;
+}
+.Posts__block{
+    height: 90%;
+}
+.Posts__block__wrap{
+    justify-content: center;
+    gap: 10px;
+    height: 70%;
+}
+.Posts__info__text{
+    font-size: 13px;
+}
+.Posts__block__wrap__column__info{
+    gap: 10px;
+}
+.Posts__block__wrap__column__info__title{
+    font-size: 13px;
+}
+.Posts__block__wrap__column__info__text{
+    font-size: 11px;
+}
+.Posts__block__wrap__column__info__link{
+    font-size: 13px;
+}
+.Posts__block__wrap__column{
+    width: calc(33.333% - 5px);
+}
+.Posts__block__arrows{
+    top: 40px;
+}
 }
