@@ -291,8 +291,6 @@
 .Projects__block__info__text{
     width: 100%;
 }
-.Projects__block__info__menu{
-}
 .Projects__block__info__menu__item{
     gap: 3px;
     flex-wrap: wrap;

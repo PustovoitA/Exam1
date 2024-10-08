@@ -34,7 +34,7 @@
 .vacansies__block__line__column__h2{
     font-family: Raleway;
     text-align: center;
-    color: rgb(85 85 85);
+    color: var(--color-title);
     font-weight: 600;
     font-size: 22px;
     margin-top: 15px;
@@ -121,7 +121,7 @@
     width: 55%;
 }
 .Projects__block__info__title {
-    color: rgb(85 85 85);
+    color: var(--color-title);
     font-family: Raleway;
     font-weight: 700;
     font-size: 25px;
@@ -129,7 +129,7 @@
 .Projects__block__info__text {
     width: 85%;
     text-align: center;
-    color: rgb(148 148 148);
+    color: var(--color-text);
     line-height: 25px;
     font-size: 15px;
 }
@@ -152,7 +152,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgb(145 145 145);
+    color: var(--color-text);
     border: #c5c5c556 1px solid;
     border-radius: 4px;
     height: 100%;
@@ -357,12 +357,12 @@
 }
 .Mobile__info__title{
     font-size: 20px;
-    color: rgb(85 85 85);
+    color: var(--color-title);
     font-weight: 700;
     font-family: Montserrat;
 }
 .Mobile__info__text{
-    color: rgb(148 148 147);
+    color: var(--color-text);
     width: 50%;
     font-size: 13px;
     line-height: 23px;
@@ -370,7 +370,7 @@
     font-family: Montserrat;
 }
 .Mobile__info__list{
-    color: rgb(148 148 147);
+    color: var(--color-text);
     font-family: Montserrat;
     font-weight: 500;
     font-size: 13px;
@@ -437,12 +437,12 @@
     width: 40%;
 }
 .Posts__info__title{
-    color: rgb(85 85 85);
+    color: var(--color-title);;
     font-size: 30px;
     font-weight: 600;
 }
 .Posts__info__text{
-    color: rgb(140 140 140);
+    color: var(--color-text);
     text-align: center;
     line-height: 30px;
     font-weight: 500;
@@ -516,13 +516,13 @@
     transition: 300ms;
 }
 .Posts__block__wrap__column__info__title{
-    color: rgb(85 85 85);
+    color: var(--color-title);;
     font-size: 18px;
     font-weight: 600;
     transition: 300ms;
 }
 .Posts__block__wrap__column__info__text{
-    color: rgb(140 140 140);
+    color: var(--color-text);
     font-size: 15px;
     transition: 300ms;
 }
