@@ -101,6 +101,27 @@
 }
 
 @media (max-width:920px){
+    .vacancies{
+        height: 500px;
+    }
+    .vacancies__block{
+        flex-direction: column;
+        height: 100%;
+    }
+    .vacansies__block__line{
+        justify-content: space-between;
+    }
+    .vacansies__block__line__column svg{
+        width: 25px;
+        height: 25px;
+    }
+    .vacansies__block__line__column__h2{
+        font-size: 17px;
+        margin-top: 11px;
+    }
+    .vacansies__block__line__column p{
+        font-size: 15px;
+    }
 .footer__logo__wrap__images{
     flex-direction: column;
     }
@@ -127,27 +148,6 @@
 }
 .header__main__text{
     font-size: 14px;
-}
-.vacancies{
-    height: 500px;
-}
-.vacancies__block{
-    flex-direction: column;
-    height: 100%;
-}
-.vacansies__block__line{
-    justify-content: space-between;
-}
-.vacansies__block__line__column svg{
-    width: 25px;
-    height: 25px;
-}
-.vacansies__block__line__column__h2{
-    font-size: 17px;
-    margin-top: 11px;
-}
-.vacansies__block__line__column p{
-    font-size: 15px;
 }
 .Multipurpose_block__info__title{
     font-size: 25px;
@@ -218,7 +218,9 @@
     font-size: 13px;
 }
 .Posts{
-    height: 530px;
+    justify-content: start;
+    height: 1450px;
+    gap: 10px;
 }
 .Posts__info__title{
     font-size: 23px;
@@ -227,27 +229,57 @@
     line-height: 23px;
 }
 .Posts__block{
-    height: 70%;
+    height: 80%;
 }
-.Posts__block__wrap__column__img__item{
-    width: 35px;
-    height: 45px;
-}
-.Posts__block__wrap__column__img__item__number{
-    font-size: 15px;
-}
-.Posts__block__wrap__column__img__item__month{
-    font-size: 13px;
-}
-.Posts__block__wrap__column__info{
+.Posts__block__wrap{
+    flex-direction: column;
     align-items: center;
-    padding-left: 0;
+    justify-content: start;
+    height: 100%;
+    gap: 11px;
 }
-.Posts__block__wrap__column__info__title{
-    text-align: center;
+.Posts__block__wrap__column{
+    height: 45%;
 }
-.Posts__block__wrap__column__info__text{
-    text-align: center;
+}
+
+@media (max-width:768px){
+.vacancies__block{
+    gap: 2%;
+}
+.vacancies__block__line{
+    justify-content: center;
+    width: 100%;
+}
+.Projects__block__info__menu__item{
+    gap: 3px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Projects{
+    height: 2250px;
+}
+.Projects__block{
+    height: 100%;
+}
+.Projects__block__wrap{
+    height: 80%;
+    gap: 15px;
+}
+.Projects__block__wrap__line{
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+    height: 50%;
+}
+.Projects__block__wrap__line__column{
+    min-width: 60%;
+}
+}
+
+@media (max-width:514px){
+.Projects__block__wrap__line__column{
+    width: 90%;
 }
 }
 
@@ -267,18 +299,6 @@
     height: 40px;
     font-size: 11px;
 }
-.vacancies{
-    height: 200px;
-}
-.vacancies__block{
-    gap: 1%;
-}
-.vacancies__block__line{
-    width: 100%;
-}
-.vacansies__block__line__column p{
-    display: none;
-}
 .Multipurpose_block__info__title{
     font-size: 18px;
 }
@@ -295,29 +315,6 @@
     gap: 3px;
     flex-wrap: wrap;
     justify-content: center;
-}
-.Projects__block__wrap{
-    width: 100%;
-}
-.Projects__block__wrap__line{
-    width: 100%;
-    justify-content: center;
-    gap: 5px;
-}
-.Projects__block__wrap__line__column{
-    width: calc(33.333% - 2.5px);
-}
-.Projects__block__wrap__line__column__image{
-    background-position-x: -50px;
-}
-.Projects__block__wrap__line__column__info{
-    padding: 0;
-}
-.Projects__block__wrap__line__column__info__title{
-    font-size: 13px;
-}
-.Projects__block__wrap__line__column__info__cube{
-    left: 5px;
 }
 .Video__black__block{
     width: 100%;
@@ -340,45 +337,6 @@
 .Statistics__block{
     width: 100%;
     gap: 2%;
-}
-.Posts{
-    gap: 15px;
-    height: 500px;
-}
-.Posts__block__wrap__column__img{
-    background-position-x: -45px;
-}
-.Posts__info{
-    width: 100%;
-}
-.Posts__block{
-    height: 90%;
-}
-.Posts__block__wrap{
-    justify-content: center;
-    gap: 10px;
-    height: 70%;
-}
-.Posts__info__text{
-    font-size: 13px;
-}
-.Posts__block__wrap__column__info{
-    gap: 10px;
-}
-.Posts__block__wrap__column__info__title{
-    font-size: 13px;
-}
-.Posts__block__wrap__column__info__text{
-    font-size: 11px;
-}
-.Posts__block__wrap__column__info__link{
-    font-size: 13px;
-}
-.Posts__block__wrap__column{
-    width: calc(33.333% - 5px);
-}
-.Posts__block__arrows{
-    top: 40px;
 }
 .footer__logo__wrap__images__column img{
     width: 150px;
